@@ -7,6 +7,7 @@
 }
 body{
     background-color: #000;
+    /* height: 100vh; */
 }
 
 .dev{
@@ -19,7 +20,7 @@ body{
     background: linear-gradient(135deg, #14ffe9, #ffeb3d, #ff00e0);
     width: 80px;
     height: 80px;
-    margin-left: 90px;
+    margin: auto;
     border-radius: 50%;
     position: relative;
     animation: animate 1.5s linear infinite;
@@ -39,7 +40,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 50px;
 
 }
 .ghori{
@@ -99,4 +100,42 @@ body{
     filter: blur(15px);
 }
 
+@media (max-width: 700) {
+    .dev{
+        align-items: center;
+    }
+    .ghori{
+        display: flex;
+        margin: 0 50px;
+    }
+}
+.fotter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    text-align: center;
+}
+footer{
+    background: linear-gradient(135deg, #14ffe9, #ffeb3d, #ff00e0);
+    margin-bottom: 0;
+    margin: 40px 0;
+    width: 100%;
+    padding: 40px 50px;
+    letter-spacing: 2px;
+    position: relative;
+}
 
+.fotter h4{
+    font-weight: 600;
+}
+
+.fotter h5{
+    font-size: 13px;
+    margin-top: 8px;
+}
+.fotter i{
+    margin-top: 15px;
+    bottom: 5px;
+
+}
