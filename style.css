@@ -110,13 +110,12 @@ body{
     }
 }
 .fotter{
-    display: flex;
-    justify-content: center;
+    
+}
+footer{
     align-items: center;
     bottom: 0;
     text-align: center;
-}
-footer{
     background: linear-gradient(135deg, #14ffe9, #ffeb3d, #ff00e0);
     margin-bottom: 0;
     margin: 40px 0;
@@ -126,15 +125,15 @@ footer{
     position: relative;
 }
 
-.fotter h4{
+footer h4{
     font-weight: 600;
 }
 
-.fotter h5{
+footer h5{
     font-size: 13px;
     margin-top: 8px;
 }
-.fotter i{
+footer i{
     margin-top: 15px;
     bottom: 5px;
 
