@@ -135,6 +135,12 @@ footer h5{
 }
 footer i{
     margin-top: 15px;
+    padding: 10px 20px;
     bottom: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(240, 86, 9);
+
+    border-radius: 50%;
 
 }

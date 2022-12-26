@@ -17,4 +17,4 @@ setInterval(
     }
 )
 
- let al = alert("You are show Just Time");
+//  let al = alert("You are show Just Time");
